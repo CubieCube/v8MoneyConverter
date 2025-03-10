@@ -2,6 +2,7 @@ package Stan.v8moneyconverter;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         textInput = findViewById(R.id.EuroInput);
         textOutput = findViewById(R.id.ResultText);
+
+        Button USDButton = findViewById(R.id.USDButton);
+        Button GDPButton = findViewById(R.id.GDPButton);
 
     }
 
